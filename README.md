@@ -1,16 +1,17 @@
 # My Movies
 
-Este projeto foi criado com [React](https://github.com/facebook/create-react-app).
+Este projeto foi criado com no intúito de demonstrar de maneira simples o consumo de uma [API](https://pt.wikipedia.org/wiki/Api) utilizando [React](https://pt-br.reactjs.org/) com [The Movie DB](https://www.themoviedb.org/).
+A API utilizada neste projeto é open source e, basta realizar o cadastro e utilizar livremente .
 
 ## Script de inicialização
 
-### `criando projeto`
+### criando projeto
 
 ```sh
 npx create-react-app my-movies
 ```
 
-### `instalando bibliotecas necessárias`
+### instalando bibliotecas necessárias
 
 #### styled
 
@@ -35,7 +36,7 @@ npm i axios
 
 No diretório do projeto, você pode executar:
 
-### `npm start`
+### npm start
 
 Para executar o aplicativo no modo de desenvolvimento.\
 Abra [http://localhost:3000](http: // localhost: 3000) para visualizá-lo no navegador.
@@ -47,6 +48,9 @@ Abra [http://localhost:3000](http: // localhost: 3000) para visualizá-lo no nav
   .
   ├── node_modules
   ├── public
+  │   ├── favicon.ico
+  │   ├── index.html
+  │   └── manifest.json
   ├── src/
   │   ├── api/
   │   │   └── MoviesService.js
