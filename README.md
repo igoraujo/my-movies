@@ -9,9 +9,10 @@ A API utilizada neste projeto é open source e, basta realizar o cadastro e util
 
 ```sh
 npx create-react-app my-movies
+cd my-movies
 ```
 
-### instalando bibliotecas necessárias
+### Instalando bibliotecas necessárias
 
 #### styled
 
@@ -36,10 +37,13 @@ npm i axios
 
 No diretório do projeto, você pode executar:
 
-### npm start
+### Executar o projeto
+Para executar o aplicativo no modo de desenvolvimento.
 
-Para executar o aplicativo no modo de desenvolvimento.\
-Abra [http://localhost:3000](http: // localhost: 3000) para visualizá-lo no navegador.
+```sh
+npm start
+```
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no browser.
 
 ### Estrutura de Arquivos
 
